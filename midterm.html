@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDTERM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/midterm.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+  <header class="fixed-top mb-3 p-2 shadow-sm bg-light overflow-hidden">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Jason Espallardo
+          <br><span>WEB DEVELOPMENT | PUP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="midterm.html" class="nav-link active">MIDTERM</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" onclick="alert('Final page is not yet added')">FINAL</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="container">
+        <div class="midterm p-4 mb-5 text-center">
+            <h2 class="lead text-white fs-3">Midterm</h2>
+        </div>
+
+        <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active " id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="true">Quiz</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="activities-tab" data-bs-toggle="tab" data-bs-target="#activities" type="button" role="tab" aria-controls="activities" aria-selected="false">Activities</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="exam-tab" data-bs-toggle="tab" data-bs-target="#exam" type="button" role="tab" aria-controls="exam" aria-selected="false">Exam</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="quiz" role="tabpanel" aria-labelledby="quiz-tab">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="mb-0">Quiz</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="card mb-3 section-card">
+                                  <div class="card-body">
+                                      <div class="row align-items-center">
+                                          <div class="col-md-4 mb-3 mb-md-0">
+                                              <img src="./src/assets/quiz1.png" alt="HTML Quiz 1" class="activity-image quiz-image" />
+                                          </div>
+                                          <div class="col-md-8">
+                                              <h4 class="card-title activity-title">Quiz #1</h4>
+                                              <p class="card-text">
+                                                  <strong>Reflection:</strong> This 19 item quiz helped us check how much we know about HTML, including its syntax, elements, and attributes. It showed how well we can use them to create and organize content for websites.
+                                              </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="activities" role="tabpanel" aria-labelledby="activities-tab">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="mb-0">Activities</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">ABOUT ME</h4>
+                                    <img src="./src/assets/aboutMe.png" alt="About Me answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>This activity serves as an introduction to myself. I included a formal photo to present myself, wrote my full name for identification, described myself in three words, shared a message with my teacher, and listed three topics I wished to learn about.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity helped me know myself more and my interests.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://drive.google.com/drive/folders/1XtALODGd2JtJbHVhNGK-dz6x8p5UoBMR?usp=sharing" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">ASSIGNMENT #1 - Web Development</h4>
+                                    <img src="./src/assets/assign1.png" alt="Assignment 1 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I began by reading each question carefully and researching reliable web development sources to ensure fact-based answers. After completing answering all questions in a document, I reviewed them to make sure it is correct. Finally, I transferred my answers to yellow pad paper and added my signature to authenticate my work.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity taught me the importance of writing efficient code for reliable and optimized websites. I gained knowledge about emerging trends like PWAs, the role of backend developers in data management, and the advantages and drawbacks of backend frameworks. Additionally, I learned about HTML's role in web development and how semantic markup enhances accessibility and SEO, improving user experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://drive.google.com/drive/folders/1GQGMJSmm4DiLLoHlzcWjdd_y5YjvSsq2?usp=sharing" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #1 - HTML Text and Images</h4>
+                                    <img src="./src/assets/act1.png" alt="Activity 1 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I first created 3 HTML files with descriptive names for each holiday and used the provided HTML template to structure the web pages. I then added brief holiday details, high-quality images, and meaningful alt text to make sure it is accessible. After finishing coding, I review them and check if there are bugs or errors. After that, I uploaded them to Google Drive and made it public and submitted the link of the Gdrive on Canvas.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity taught me about the importance of organized file naming and structured coding. I gained knowledge on how to create accessible and visually appealing web pages and understood the role of alt text in enhancing accessibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://drive.google.com/drive/folders/10RWkEDsARTMOuVi2YFB_cac5-rKhsaYF?usp=sharing" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #2 - HTML Tags</h4>
+                                    <img src="./src/assets/act2.png" alt="Activity 2 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I first do research recipes for an appetizer, main course, and cake dessert in public sites. I created a webpage using a table to display the three recipes. Each recipe uses an unordered list for ingredients, an ordered list for procedures, and an image resized to 250x200. After coding and checking for bugs and errors, I saved this with the file name "BSCS_recipe.html" and uploaded the HTML file and images to Google Drive. I made it public and submitted the link of the Gdrive on Canvas.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>I learned how to organize recipes using HTML tables. I improved my skills in creating unordered and ordered lists, resizing images, and designing structured web pages.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://drive.google.com/drive/folders/1CBxsCMWetoGZw94IVLlre_sa38JE6JIg?usp=sharing" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #3 - Building a Personal Portfolio Page Using Bootstrap</h4>
+                                    <img src="./src/assets/act3.png" alt="Activity 3 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I started by linking provided Bootstrap CDN links into my HTML file. I also created a responsive navigation bar with section links and added a Carousel to show my projects with captions. I also use the grid to display my skills and make the website responsive. I use a table to display my education and work experience. For my portfolio projects, I added Cards with titles, descriptions, and links. I also use vanilla CSS to make it responsive to all devices and make it more appealing.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity improved my understanding of Bootstrap components and responsive design. I enhance my skills in creating structured layouts, organizing content, and customizing styles.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://github.com/Shifard/act3" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #4: Responsive Restaurant Website (Group Activity)</h4>
+                                    <img src="./src/assets/act4.png" alt="Activity 4 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>This group activity involved dividing tasks into content creation and coding. We planned the website sections, developed content, and structured it using semantic HTML. The website was styled with CSS framework (Bootstrap) and vanilla CSS. We use high graphic images, hover effects, and we test the responsiveness of the website to make sure the website is responsive and visually appealing.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity taught me how to collaborate is important. I gained insights into creating well-organized content and learned how to integrate it effectively into a structured and visually appealing website.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://github.com/WebDev-Group2-31N-AY2425/activity4" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #5: Event or Conference Webpage</h4>
+                                    <img src="./src/assets/act5.png" alt="Activity 5 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I based the webpage structure based on the required sections, such as the header, hero section, and registration. I created the content and built the page using semantic HTML elements, and having navigation menus and accessible features like alt attributes for images. I styled the web page with Bootstrap and vanilla CSS, and I also use meyer reset to remove default styles in different browsers. Lastly, I use high graphic images, hover effects, and test the responsiveness of the website to make sure the website is responsive and visually appealing.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity improved my ability to create well-structured and visually engaging webpages. I enhance my skills in HTML and CSS, focusing on responsiveness and accessibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://github.com/Shifard/conference_webpage" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-4 section-card position-relative">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <h4 class="activity-title mb-3">Activity #6: Combined Operators using Javascript</h4>
+                                    <img src="./src/assets/act6.png" alt="Activity 6 answer preview" class="activity-image" />
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="process-box p-3">
+                                        <h5 class="text-white">PROCESS:</h5>
+                                        <p>I analyzed the problems and designed simple algorithms using JavaScript combined operators. I implemented the code to calculate total cost, adjust scores, manage inventory, and compute travel distance and time, testing each for accuracy.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="learned-box p-3">
+                                        <h5 class="text-white">LEARNED:</h5>
+                                        <p>This activity helped me understand JavaScript arithmetic operators and their use in calculations. It helped me apply logical thinking to real-world scenarios. I also practiced breaking down problems into smaller steps to make the problems easy to solve.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end mt-3">
+                                <a href="https://drive.google.com/drive/folders/1IJFGXreoPAJ140NncTbxJsR6UznSOYxR?usp=sharing" target="_blank" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="exam" role="tabpanel" aria-labelledby="exam-tab">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="mb-0">Midterm Examination</h3>
+                    </div>
+                    <div class="card-body text-center p-5">
+                      To be Added
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        
+    <!-- Footer -->
+    <footer class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-center">
+        <p>&copy; 2025 Jason Espallardo. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>

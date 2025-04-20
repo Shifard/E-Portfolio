@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --bg-active: rgb(67, 183, 255);
+  --black-color: rgb(26, 26, 26);
+  --header-height: 90px;
+  --footer-height: 50px;
+}
+
+* {
+  font-family: "Oswald", Arial, sans-serif !important;
+}
+
+header {
+  background-color: #ffffff !important;
+  height: auto !important;
+  min-height: var(--header-height);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-brand > span {
+  font-weight: 300;
+  font-size: 0.88rem;
+}
+
+.nav-item {
+  font-weight: 500;
+}
+
+.nav-link {
+  transition: all 0.2s;
+  color: var(--black-color);
+}
+
+.nav-link:hover {
+  color: var(--bg-active) !important;
+}
+
+.nav-link.active {
+  color: var(--bg-active) !important;
+}
+
+body {
+  margin-top: 100px !important;
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+footer {
+  height: var(--footer-height);
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.midterm {
+  background-color: var(--black-color);
+  color: var(--bg-active);
+  border-radius: 0.5rem;
+}
+
+.section-card {
+  border-left: 4px solid var(--black-color);
+}
+
+.process-box, .learned-box {
+  background-color: var(--black-color);
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.activity-title {
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+.activity-image {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  max-height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.activity-image:hover {
+  transform: scale(1.03);
+}
+
+.quiz-image {
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.activity-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+img {
+  height: 100% !important;
+  width: auto !important;
+}
+
+@media (max-width: 576px) {
+  img {
+    width: 200px !important;
+    height: auto;
+  }
+}

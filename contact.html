@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./src/css/contact.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+  <header class="fixed-top mb-3 p-2 shadow-sm bg-light overflow-hidden">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Jason Espallardo
+          <br><span>WEB DEVELOPMENT | PUP</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="midterm.html" class="nav-link">MIDTERM</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link" onclick="alert('Final page is not yet added')">FINAL</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+          <div class="contact-container">
+            <h2 class="text-center mb-4" style="font-size: 2rem;">Contact Me</h2>
+            
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/jason-espallardo-870913285/" class="social-link" target="_blank">
+                <i class="bi bi-linkedin"></i> LinkedIn
+              </a>
+              <a href="mailto:espallardo.je@gmail.com" class="social-link" target="_blank">
+                <i class="bi bi-envelope"></i> Email
+              </a>
+              <a href="https://github.com/Shifard" class="social-link" target="_blank">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+            </div>
+            
+            <form action="" method="post">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name *</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Albert Einstein" required>
+              </div>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="alberteinstein@gmail.com" required>
+              </div>
+              
+              <div class="mb-3">
+                <label for="message" class="form-label">Message *</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message here." required></textarea>
+              </div>
+              
+              <div class="d-grid">
+                <button type="submit" class="btn btn-lg btn-submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-center">
+      <p>&copy; 2025 Jason Espallardo. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>

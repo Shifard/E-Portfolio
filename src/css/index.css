@@ -37,6 +37,7 @@ header {
 }
 
 .nav-link {
+  color: var(--black-color);
   transition: all 0.2s;
 }
 
@@ -115,7 +116,6 @@ footer p {
   color: #666;
 }
 
-/* Responsive styles */
 @media (min-width: 992px) {
   .content-container {
     flex-direction: row;
